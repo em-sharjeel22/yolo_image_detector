@@ -1,11 +1,9 @@
 import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
-import cv2
 import numpy as np
 
-# Load model
-model = YOLO("yolov8m.pt")
+model = YOLO("yolov8n.pt")
 
 st.title("YOLO Object Detection")
 
@@ -22,3 +20,4 @@ if uploaded_file:
     annotated = results[0].plot()
 
     st.image(annotated, channels="BGR")
+
