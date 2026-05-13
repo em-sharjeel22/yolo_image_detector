@@ -3,4 +3,7 @@
 
 ultralytics>=8.0.0      # YOLOv8 (includes PyTorch, auto-downloads weights)
 opencv-python>=4.8.0    # Camera + video I/O and drawing
-numpy>=1.24.0           # Array operations
+numpy>=1.24.0# Array operations
+streamlit
+opencv-python-headless
+pillow
