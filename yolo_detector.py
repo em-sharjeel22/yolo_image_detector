@@ -225,7 +225,7 @@ def run_video(model, cfg, video_path: str):
 
         draw_hud(frame, fps, num_det, cfg["model"], path.name)
         writer.write(frame)
-        cv2.imshow(f"YOLO Detection — {path.name}  [Q = quit]", frame)
+        cv2.image(f"YOLO Detection — {path.name}  [Q = quit]", frame)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
