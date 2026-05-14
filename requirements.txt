@@ -3,6 +3,4 @@ streamlit
 ultralytics
 opencv-python-headless
 Pillow
-torch
-torchvision
 pi-heif
