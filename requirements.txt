@@ -1,10 +1,7 @@
-# Real-Time Object Detection — YOLOv8
-# Install with: pip install -r requirements.txt
 numpy
 streamlit
 ultralytics
 opencv-python-headless
-pillow
-numpy
+Pillow
 torch
 torchvision
