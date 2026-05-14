@@ -9,7 +9,7 @@ st.title("YOLO Object Detection")
 
 uploaded_file = st.file_uploader("Upload Image")
 
-if uploaded_file:
+if uploaded_file is not None:
 
     # image = Image.open(uploaded_file)
     try:
