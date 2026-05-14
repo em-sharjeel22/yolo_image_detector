@@ -18,7 +18,7 @@ from ultralytics import YOLO
 # ─── Configuration ────────────────────────────────────────────────────────────
 
 CONFIG = {
-    "model"      : "yolov8m.pt",   # nano=fastest | s/m/l/x=more accurate
+    "model"      : "yolov8n.pt",   # nano=fastest | s/m/l/x=more accurate
     "confidence" : 0.50,           # minimum confidence threshold (0–1)
     "iou"        : 0.55,           # IoU threshold for NMS
     "img_size"   : 640,            # inference image size
