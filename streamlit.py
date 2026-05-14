@@ -11,13 +11,8 @@ uploaded_file = st.file_uploader("Upload Image")
 
 if uploaded_file is not None:
 
-    # image = Image.open(uploaded_file)
-    try:
     image = Image.open(uploaded_file)
-    except Exception:
-    st.error("Please upload a valid image file (JPG, JPEG, PNG)")
-    st.stop()
-
+    
     img_array = np.array(image)
 
     results = model(img_array)
